@@ -2,7 +2,9 @@ package com.jwelyl.spring_webservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+@EnableJpaAuditing	//	JPA Auditing ghkftjdghk
 @SpringBootApplication
 public class SpringWebserviceApplication {
 
